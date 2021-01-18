@@ -1,0 +1,54 @@
+#shows{
+    margin-bottom: 30px;
+    h2{
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    
+    p{
+        font-weight: 300;
+        display: inline;
+        font-size: 1.25rem;
+    }
+    
+    a{
+        display: inline;
+    }
+    
+    button{
+        width: 7.125rem;
+        height: 1.75rem;
+        border-radius: 14px;
+        border-color:$rojo;
+        color: $rojo;
+        display: inline-block;
+        transition: 0.2s;
+        text-align: center;
+    }
+    
+    button:hover{
+        color: $blanco;
+        background-color: $rojo ;
+    }
+}
+
+.contenedorFlex{
+    justify-content: space-evenly;
+    height: 18.938rem;
+    width: 300px;
+    margin-top: 60px;
+    div{
+        margin-left: 70px;
+        p{
+            margin-right: 5px;
+        }
+    }
+}
+
+.fotoShows{
+    height: 28.125rem;
+    width: 18.75rem;
+    box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);;
+}

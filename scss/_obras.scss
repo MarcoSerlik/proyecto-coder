@@ -1,0 +1,52 @@
+.contenedor{
+    flex-direction: row;
+    flex-wrap: wrap; 
+    width: 100%;
+    justify-content: space-around; 
+}
+
+.disco{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+}
+
+#obrasLibro{
+    color:$negro;
+    margin-top: 1rem;
+    margin-bottom: 30px;
+    h2{
+        font-weight: 400;
+        font-size: 2.5rem;
+        width: 18.438rem;
+        height: 7.25rem;
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+    p{
+        width: 27.375rem;
+        height: 9.688rem;
+        font-weight: 300;
+        margin-left: 50px;
+    }
+
+    button{
+        width: 7.125rem;
+        height: 1.75rem;
+        border-radius: 14px;
+        border-color:$rojo;
+        color: $rojo;
+        margin-left: 300px;
+    }
+    button:hover{
+        background-color: $rojo;
+        color: $blanco;
+    }
+    img{
+        width: 300px;
+        display: inline;
+        margin-left: 16rem;
+        box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+    }
+}

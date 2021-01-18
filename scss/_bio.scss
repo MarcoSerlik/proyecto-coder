@@ -1,0 +1,29 @@
+.contenedorBio{
+    margin-bottom: 30px;
+}
+
+.bio {
+    display: inline-block;
+    width: 32.188rem;
+    height: 29rem;
+    background-color: $azulc;
+    padding: 1.313rem 0.813rem;
+    margin-top: 5rem;
+    box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+    p{
+        font-size: 0.625rem;
+        font-weight: 400;
+        color: $blanco;
+        span{
+            font-weight: 600;
+        }
+    }
+}
+
+.fotoBiografia{
+    width: 22.844rem;
+    height: 35.281rem;
+    margin-top: 1.5rem;
+    margin-left: 11rem;
+    box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+}

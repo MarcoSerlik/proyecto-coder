@@ -1,0 +1,61 @@
+#headerIndex{
+    width: 100%;
+    color: $blanco;
+        h1{
+            font-size: 3.75em;
+            font-weight: 400;
+    }
+    nav{
+        right: 0px;
+        top: 10px;
+        li{
+            display: inline;
+            font-size: 1.25em;
+            text-align: right;
+            word-spacing: 2rem;
+            a{
+                color: $blanco;
+            }
+        }
+    }
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.headerBoot{
+    box-shadow: 0px 2px 3px;
+}
+
+footer{
+    color: $blanco;
+    background-color: $azulo;
+    height: auto;
+    p{
+        display: inline-block;
+        font-size: 0.6em;
+    }
+    li{
+        list-style-type: none;
+        display: inline-block;
+        margin: 0px 35px;
+        margin-top: 1.5rem;
+        a{
+            color: $blanco;
+        }
+    }
+    i:hover{
+        color: #394867;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    footer li{
+        margin: 0px 15px;
+        margin-top: 1.5rem;
+        display: inline-block;
+        list-style-type: none;
+        
+    }
+}

@@ -1,0 +1,78 @@
+.fotoFondo{
+    width: 100%;
+}
+
+form{
+    width: 100%;
+    position: absolute;
+    width: 1%;
+    top: 5rem;
+    margin: 0px;
+}
+
+#formulario{
+    color:$blanco;
+    height: 601.667px;
+    background-image: url(../imagenes/fondocontactos.jpg);
+    background-size: 100% auto;
+    h2{
+        margin-top: 30px;
+        font-weight: 400;
+        font-size: 2.5rem;
+        display: inline-block;
+    }
+}
+
+.nombreF{
+    width: 26.875rem;
+    height: 2.813rem;
+    border-radius: 14px;
+    position: absolute;
+    top: 1rem;
+    left:8rem;
+}
+
+.emailF{
+    width: 26.875rem;
+    height: 2.813rem;
+    border-radius: 14px;
+    position: absolute;
+    left:8rem;
+    top: 6rem;
+}
+
+.asuntoF{
+    width: 26.875rem;
+    height: 2.813rem;
+    border-radius: 14px;
+    position: absolute;
+    left:8rem;
+    top: 11rem;
+}
+
+.consultaF{
+    border-radius: 14px;
+    height: 18.375rem;
+    width: 22.938rem;
+    position: absolute;
+    top: 1rem;
+    left: 38rem;
+}
+
+.botonF{
+    width: 7.125rem;
+    height: 1.75rem;
+    border-radius: 14px;
+    border-color:$rojo;
+    color:$rojo;
+    display: inline-block;
+    position: absolute;
+    top: 16rem ;
+    left: 28rem;
+    transition: 0.2s;
+}
+
+.botonF:hover{
+    background-color:$rojo ;
+    color: $blanco;
+}

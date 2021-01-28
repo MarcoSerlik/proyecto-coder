@@ -118,13 +118,287 @@
     color: $negro;
     margin-bottom: 30px;
     iframe {
-        margin-left: 190px;
+        margin-left: 250px;
     }
     p {
-        font-size: 0.625rem;
-        margin-left: 360px;
+        font-size: 0.8em;
+        margin-left: 235px;
         margin-top: 30px;
-        color: #858781;
     }
+}
+
+@media screen and (max-width: 1200px) {
+    .textoNoticia1{
+        h3{
+            color: $negro;
+            font-size: 1.25em;
+            font-weight: 400;
+            width: 26.938rem;
+            height: 5.5rem;
+        }
+        p{
+            width: 23rem;
+            height: 2.938rem;
+            margin-left: 30px;
+        }
+        a{
+            margin-left: 30px;
+        }
+    }
+    .fotoNoticia1{
+        width: 26.875rem;
+        height: 13.313rem;
+        margin-left: 0px !important;
+        box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+    }
+    .textoNoticia2{
+        h3{
+            color: $negro;
+            font-size: 1.5rem !important;
+            font-weight: 400;
+            width: 25rem ;
+            height: 3.5rem ;
+            margin: 0; 
+            margin-top: 94px;
+        } 
+        p{
+            width: 19.688rem;
+            height: 4.3rem;
+            text-align: right;
+            margin-top: 30px;
+            margin-left: 115px;
+        }
+        a{
+            margin-top: 45px;
+            margin-left: 372px;
+        }
+    }
+    .fotoNoticia3{
+        width: 26.906rem;
+        height: 17.875rem;
+        margin-left: 0px !important;
+        box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+    }
+}
+
+@media screen and (max-width:992px){   
+    .textoNoticia1{
+        h3{
+        font-size: 1em !important;
+        width: 22rem !important;
+        height: auto;
+        }
+        p{
+        width: 20rem !important;
+        height: auto !important;
+        margin-left: 20px !important;
+        }
+        a{
+        margin-left: 20px !important;
+        }
+    }
+    
+    .fotoNoticia1{
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;
+        box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
+    }
+    
+    .textoNoticia2{
+        h3{
+            color: $negro;
+            font-size: 1rem;
+            font-weight: 400;
+            width: 20rem !important ;
+            height: 3rem !important;
+            margin: 0; 
+            margin-top: 94px;
+        } 
+        p{
+            width: 20rem;
+            height: 6rem;
+            text-align: left !important;
+            margin-left: 0px !important;
+        }
+        a{
+            margin-top: 45px;
+            margin-left: 0px !important;
+        }
+    }
+    .fotoNoticia3{
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important; 
+    }
+    
+    .divisorYt iframe {
+        width: 100% !important;
+        margin-left: 0px !important;
+        }
+    
+    .divisorYt p {
+        font-size: 0.7em;
+        margin-left: 30px !important;
+        margin-top: 30px;
+        }
+}
+
+@media screen and (max-width:768px){
+    .textoNoticia1{
+        margin-top: 30px !important;
+        h3{
+            color: $negro;
+            font-size: 1em;
+            font-weight: 400;
+            width: 26.938rem;
+            height: 5.5rem;
+            margin-left: 60px !important;
+        }
+        p{
+            width: 23rem;
+            height: 2.938rem;
+            margin-left: 60px !important;
+            margin-top: 20px;
+        }
+        a{
+            margin-left: 60px !important;
+        }
+    }
+    
+    .fotoNoticia1{
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;  
+    }
+    
+    .textoNoticia2{
+        h3{
+            width: 20rem !important ;
+            height: 3rem !important;
+            margin-left: 60px !important;
+        } 
+        p{
+            text-align: left !important;
+            margin-top: 20px !important;
+            margin-left: 60px !important;
+        }
+        a{
+            margin-top: 45px !important;
+            margin-left: 60px !important;
+            margin-bottom: 30px !important;
+        }
+    }
+    
+    .fotoNoticia2{
+        margin-left: 75px !important;
+    }
+    
+    .textoNoticia3{
+        h3{
+            margin-left: 60px !important;
+        }
+        p{
+            margin-left: 60px !important;
+        }
+        a{
+            margin-left: 60px !important;
+        }
+    }
+
+    
+    .fotoNoticia3{
+        width: 100% !important;
+        height: auto !important;
+        margin-left: 0px !important;  
+    }
+    
+    .divisorYt iframe {
+        width: 100% !important;
+        }
+    
+    .divisorYt p {
+        margin-left: 0px !important;
+        }
+}
+
+@media screen and (max-width: 576px) {
+    #noticias{
+        h2{
+            margin-left: 10px;
+            font-size: 1.3em;
+        }
+    }
+    
+    .textoNoticia1{
+        margin-top: 30px;
+        h3{
+            width: 100% !important;
+            margin-left: 0px !important;
+        }
+        p{
+            width: 100% !important;
+            margin-left: 0px !important;
+            margin-top: 30px !important;
+        }
+        a{
+            margin-left: 0px !important;
+        }
+    }
+    
+    .fotoNoticia1{
+        width: 100% !important;
+        height: auto !important;    
+    }
+    
+    .textoNoticia2{
+        h3{
+            width: 100% !important ;
+            height: 3rem !important;
+            margin-left: 0px !important;
+        } 
+        p{
+            width: 100% !important;
+            height: 6rem;
+            text-align: left !important;
+            margin-top: 20px !important;
+            margin-left: 0px !important;
+        }
+        a{
+            margin-top: 45px !important;
+            margin-left: 0px !important;
+            margin-bottom: 30px !important;
+        }
+    }
+    
+    .fotoNoticia2{
+        margin-left: 26px !important;
+    }
+    
+    .textoNoticia3{
+        h3{
+            margin-left: 0px !important;
+        }
+        p{
+            width: 100% !important;
+            margin-left: 0px !important;
+        }
+        a{
+            margin-left: 0px !important;
+        }
+    }
+    
+    .fotoNoticia3{
+        width: 100% !important;
+        height: auto !important;
+    }
+    
+    .divisorYt iframe {
+        width: 100% !important;
+        }
+    
+    .divisorYt p {
+        margin-left: 0px !important;
+        }
 }
 

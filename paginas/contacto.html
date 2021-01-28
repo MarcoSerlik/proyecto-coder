@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Página de contacto con el músico Hérnan Ríos. ¡Deja tus consultas por clases o talleres!">
 	<meta name="keywords" content="HERNÁN RÍOS, MÚSICA, IMPROVISACIÓN, PIANO, CLASES, DISCOS, JAZZ, FOLKLORE, CONTACTO, TALLERES">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/estilos.css">
 	<link rel="icon" href="imagenes/logo.ico">
@@ -16,23 +16,22 @@
 <body>
     
 	<!-- Header con barra navegación  -->	
-	<header>
-
+	<header id="header2">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light headerBoot">
 			<div class="container-fluid">
 			<div class="container">
-			<div class="row">
 				
 				<a class="navbar-brand" href="../index.html">Hernán Ríos</a>
 				
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				
 					<span class="navbar-toggler-icon"></span>
 				
 				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 				
-				<ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
+				<ul class="navbar-nav justify-content-end w-100">
 				
 				<li class="nav-item">
 				
@@ -60,7 +59,7 @@
 				
 				<li class="nav-item">
 				
-					<a class="nav-link active" aria-current="page" href="../paginas/contacto.html">Contacto</a>
+					<a class="nav-link active" href="../paginas/contacto.html">Contacto</a>
 				
 				</li>
 			</ul>
@@ -160,5 +159,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="https://kit.fontawesome.com/c33d89d89d.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>
+    AOS.init();
+	</script>
 </body>
 </html>

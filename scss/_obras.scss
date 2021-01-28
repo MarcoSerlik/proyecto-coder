@@ -1,3 +1,10 @@
+.tituloObras{
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+}
+
 .contenedor{
     flex-direction: row;
     flex-wrap: wrap; 
@@ -49,4 +56,49 @@
         margin-left: 16rem;
         box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
     }
+}
+
+@media screen and (max-width: 1200px) {
+#obrasLibro{
+    img{
+        margin-left: 8rem;
+    }
+}
+}
+
+@media screen and (max-width:992px){
+    #obrasLibro{
+        img{
+            margin-left: 5rem;
+        }
+        p{
+            width: 100%;
+            height: auto;
+        }
+        button{
+            margin-left: 200px;
+        }
+    }
+}
+
+@media screen and (max-width:768px){
+#obrasLibro{
+    h2{
+        margin-left: 0px;
+    }
+    p{
+        margin-left: 0px;
+    }
+    button{
+        margin-left: 350px;
+    }
+}
+}
+
+@media screen and (max-width: 576px) {
+#obraslibro{
+    button{
+        margin-left: 0px !important;
+    }
+}
 }

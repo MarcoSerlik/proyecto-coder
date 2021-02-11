@@ -1,4 +1,4 @@
-.tituloObras{
+#obras h1{
         font-weight: 400;
         font-size: 2.5rem;
         margin-top: 30px;
@@ -13,13 +13,13 @@
 }
 
 .disco{
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     margin: 30px;
     box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
 }
 
-#obrasLibro{
+#libro{
     color:$negro;
     margin-top: 1rem;
     margin-bottom: 30px;
@@ -28,77 +28,46 @@
         font-size: 2.5rem;
         width: 18.438rem;
         height: 7.25rem;
-        margin-top: 40px;
-        margin-left: 50px;
     }
     p{
-        width: 27.375rem;
-        height: 9.688rem;
+        width: 90%;
+        height: auto;
         font-weight: 300;
-        margin-left: 50px;
     }
 
     button{
         width: 7.125rem;
         height: 1.75rem;
         border-radius: 14px;
+        margin-right: 10%;
         border-color:$rojo;
         color: $rojo;
-        margin-left: 300px;
     }
     button:hover{
         background-color: $rojo;
         color: $blanco;
     }
     img{
-        width: 300px;
-        display: inline;
-        margin-left: 16rem;
+        width: 335px;
         box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
     }
 }
 
-@media screen and (max-width: 1200px) {
-#obrasLibro{
-    img{
-        margin-left: 8rem;
-    }
+@media (min-width: 992px){
+.disco{
+    width: 200px ;
+    height: 200px ;
 }
 }
 
-@media screen and (max-width:992px){
-    #obrasLibro{
-        img{
-            margin-left: 5rem;
-        }
-        p{
-            width: 100%;
-            height: auto;
-        }
-        button{
-            margin-left: 200px;
-        }
+@media (max-width: 991.98px) {
+    #libro h2{
+        margin-top: 30px;
     }
 }
 
-@media screen and (max-width:768px){
-#obrasLibro{
-    h2{
-        margin-left: 0px;
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    #libro img{
+        margin-left: 360px;
     }
-    p{
-        margin-left: 0px;
-    }
-    button{
-        margin-left: 350px;
-    }
-}
-}
-
-@media screen and (max-width: 576px) {
-#obraslibro{
-    button{
-        margin-left: 0px !important;
-    }
-}
 }

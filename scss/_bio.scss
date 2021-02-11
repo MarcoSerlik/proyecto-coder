@@ -1,71 +1,213 @@
-.contenedorBio{
+.contenedorMain{
     margin-bottom: 30px;
+    
     h1{
         font-size: 2.5em;
         margin-top: 25px;
-        margin-bottom: 30px;
-    }
-
-    .bio {
-        display: inline-block;
-        width: 32.188rem;
-        height: 29rem;
-        background-color: $azulc;
-        padding: 1.313rem 0.813rem;
-        margin-top: 5rem;
-        box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
-        p{
-            font-size: 0.625rem;
-            font-weight: 400;
-            color: $blanco;
-            span{
-                font-weight: 600;
-            }
+        margin-bottom: 30px;}
+    
+    p{
+        font-size: 1.15rem;
+        font-weight: 400;
+        color: $negro;
+        span{
+            font-weight: 600;
         }
     }
+
+    iframe{
+            box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
     
+    }
+
     .fotoBiografia{
         width: 22.844rem;
         height: 35.281rem;
-        margin-top: 1.5rem;
         margin-left: 11rem;
         box-shadow: 2px 7px 11px 1px rgba(0,0,0,0.73);
     }
+    
+    .bioTexto1{
+        margin-bottom: 50px;
+    }
+    
+    
+    .bioTexto2{
+        width: 90%;
+        margin-top: 75px;
+    }
+    
+    
+    .bioTexto4{
+        margin-top: 70px;
+        width: 90%;
+    }
+    
+    .logoUca{
+        height: 100px;
+        margin-left: 200px;
+    }
+    
+    .logoJA{
+        height: 140px;
+        margin-left: 30px;
+    }
+    
+    
+    .bioTextoSeparador{
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .imgLibro{
+        height: 350px;
+    }
+    
+    .bioTexto5{
+        margin-top: 115px;
+    }
+
+    .bioTexto6{
+        margin-top: 100px;
+        width: 90%;
+    }
 }
 
-@media screen and (max-width: 1200px){
+    @media screen and (min-width: 992px) and (max-width: 1200px){
+
     .fotoBiografia{
         margin-left: 5rem !important;
     }
+    .contenedorMain{
+        iframe{
+            width: 100%;
+        }
+    }
+    .bioTexto2{
+        margin-top: 30px;
+    }
+
+    .logoUca{
+        margin-left: 130px !important;
+    }
 }
 
-@media screen and (max-width:992px){
+
+@media screen and (min-width:768px) and (max-width:992px){
+    .bioTexto1{
+        margin-bottom: 5px !important;
+    }
+    
+    .fotoBiografia{
+        margin-left: 0px !important;
+        width: 100% !important;
+        height: auto !important;
+        margin-top: 85px !important;
+    }
+    .contenedorMain {
+    iframe{
+        width: 100%;
+    }
+    }
+    
+    .bioTexto2{
+        margin-top: 0px !important;
+    }
+    
+    .logoUca{
+        margin-left: 55px !important;
+    }
+    
+    .bioTexto4{
+        margin-top: 30px !important;
+    }
+    
+}
+
+@media screen and (min-width:576px) and (max-width:768px){
     .fotoBiografia{
         margin-left: 0px !important;
         width: 100% !important;
         height: auto !important;
         margin-top: 0px !important;
+        margin-bottom: 30px ;
     }
-    .bio{
-        margin-top: 0px !important;
-        height: auto !important;
-    }
-}
 
-@media screen and (max-width:768px){
-    .fotoBiografia{
-        margin-left: 0px !important;
-        width: 100% !important;
-        height: auto !important;
-        margin-top: 0px !important;
+    .contenedorMain{
+        iframe{
+            width: 100% !important;
+        }
     }
-    .bio{
+
+    .bioTexto2{
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .bioTextoSeparador{
+        font-size: 1rem !important;
+        font-weight: 300;
+    }
+
+    .bioTexto4{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+    .bioTexto5{
+        margin-top: 20px !important;
+    }
+
+    .bioTexto6{
+        width: 100% !important;
         margin-top: 30px !important;
     }
 }
 
 @media screen and (max-width: 576px){
-    .bio{
+    .fotoBiografia{
+        margin-left: 0px !important;
+        width: 100% !important;
         height: auto !important;
+        margin-top: 0px !important;
+        margin-bottom: 30px ;
+    }
+
+    .contenedorMain{
+        iframe{
+            width: 100% !important;
+        }
+    }
+
+    .bioTexto2{
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .bioTextoSeparador{
+        font-size: 1rem !important;
+        font-weight: 300;
+    }
+
+    .bioTexto4{
+        margin-top: 20px !important;
+        width: 100% !important;
+    }
+
+    .bioTexto5{
+        margin-top: 20px !important;
+    }
+
+    .bioTexto6{
+        width: 100% !important;
+        margin-top: 30px !important;
+    }
+
+    .logoUca{
+        margin-left: 50px !important;
+    }
+    
+    .logoJA{
+        margin-left: 80px !important;
     }
 }

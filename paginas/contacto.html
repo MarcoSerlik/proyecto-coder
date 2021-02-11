@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
 	<link rel="stylesheet" href="../css/bootstrap.min.css">
 	<link rel="stylesheet" href="../css/estilos.css">
-	<link rel="icon" href="imagenes/logo.ico">
+	<link rel="icon" href="../imagenes/flor.ico">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <title>Hernán Ríos - Contacto</title>
@@ -35,7 +35,7 @@
 				
 				<li class="nav-item">
 				
-					<a class="nav-link" href="../paginas/biografia.html">Bio</a>
+					<a class="nav-link" href="../paginas/biografia.html">Biografía</a>
 				
 				</li>
 				
@@ -72,13 +72,14 @@
 	</header>
     
     <!-- Formulario de contacto para clases, asuntos laborales o encuentros -->
-    <div class="content-fluid" id="formulario">
+
+	<div class="content-fluid" id="formulario">
 
 		<div class="container">
 
 			<div class="row">
 
-				<h2 class="col-md-12">Contacto</h2>
+				<h1 class="col-md-12">Contacto</h1>
 
 			</div>
 
@@ -88,23 +89,34 @@
 
 					<form action="#" method="GET">
 
-						<input type="text" name="nombre" placeholder="  Nombre" class="nombreF">
+						<div class="row">
 
-						<br>
+							<div class="col-12 col-md-6 d-flex flex-column justify-content-between">
 
-						<input type="email" name="email" placeholder="  Email" class="emailF">
+								<input type="text" name="nombre" placeholder="  Nombre" class="nombreF">
+								<input type="email" name="email" placeholder="  Email" class="emailF">
+								<input type="text" name="asunto" placeholder="  Asunto" class="asuntoF">
 
-						<br>
+							</div>
 
-						<input type="text" name="asunto" placeholder="  Asunto" class="asuntoF">
+							<div class="col-12 col-md-6">
 
-						<br>
+								<textarea name="consulta" placeholder="  Mensaje" class="consultaF"> </textarea>
 
-						<textarea name="consulta" placeholder="  Mensaje" class="consultaF"> </textarea>
+							</div>
 
-						<br>
+						</div>
 
-						<input type="submit" value="Enviar" class="botonF">
+						<div class="row">
+
+							<div class="col-12 d-flex justify-content-end">
+
+								<input type="submit" value="Enviar" class="botonF">
+
+							</div>
+
+						</div>
+
 
 					</form>
 
@@ -118,44 +130,40 @@
 
 		<!-- Footer con Copyright, redirección de contacto y Logos que linkean con las redes sociales. (Instagram, Facebook, Youtube y Spotify) -->
 	
-        <footer class="container-fluid d-block">
+		<footer>
 
-            <div class="container">
-    
-                <div class="row">
-    
-                    <div class="col-md-12 d-flex justify-content-center">
-    
-                        <ul>
-    
-                            <li> <a href="https://www.instagram.com/hernanrios55" target="_blank"><i class="fab fa-instagram fa-lg"></i></a> </li>
-    
-    
-                            <li> <a href="https://www.facebook.com/hernan.rios.16" target="_blank"><i class="fab fa-facebook fa-lg"></i></a> </li>
-    
-                            <li> <a href="https://www.youtube.com/rioshernan" target="_blank"> <i class="fab fa-youtube fa-lg"></i> </a> </li>
-    
-                            <li> <a href="https://open.spotify.com/artist/1EqxdRQFebtYm07hjjgCZc?si=E6oLqbVWTvmfuJLsngUCXw" target="_blank"> <i class="fab fa-spotify fa-lg"></i> </a> </li>
-    
-                        </ul>
-    
-                    </div>
-    
-                </div>
-    
-                <div class="row">
-    
-                    <div class="col-md-12  d-flex justify-content-center">
-    
-                        <p>©2020 - Marco Serlik - Desarrollador Web</p>
-    
-                    </div>
-    
-                </div>
-    
-            </div>
-    
-        </footer>
+			<div class="container-fluid">
+	
+				<div class="d-flex justify-content-center">
+	
+					<ul>
+	
+						<li> <a href="https://www.instagram.com/hernanrios55" target="_blank"><i class="fab fa-instagram fa-lg"></i></a> </li>
+	
+	
+						<li> <a href="https://www.facebook.com/hernan.rios.16" target="_blank"><i class="fab fa-facebook fa-lg"></i></a> </li>
+	
+						<li> <a href="https://www.youtube.com/rioshernan" target="_blank"> <i class="fab fa-youtube fa-lg"></i> </a> </li>
+	
+						<li> <a href="https://open.spotify.com/artist/1EqxdRQFebtYm07hjjgCZc?si=E6oLqbVWTvmfuJLsngUCXw" target="_blank"> <i class="fab fa-spotify fa-lg"></i> </a> </li>
+	
+					</ul>
+	
+				</div>
+	
+			</div>
+	
+			<div class="container-fluid">
+	
+				<div class="text-center">
+	
+					<p>©2020 - Marco Serlik - Desarrollador Web</p>
+	
+				</div>
+	
+			</div>
+	
+		</footer>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="https://kit.fontawesome.com/c33d89d89d.js" crossorigin="anonymous"></script>

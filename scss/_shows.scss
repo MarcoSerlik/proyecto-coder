@@ -57,6 +57,17 @@
     font-size: 1rem ;}
 }
 
+@media screen and (min-width:768px) and (max-width:992px){
+    #shows button{
+        margin-left: 55px;
+        margin-top: 10px;
+    }
+    .fotoShows{
+        width: 100% !important;
+        margin-top: 50px;
+    }
+}
+
 @media screen and (max-width:768px){
 .fotoShows{
     margin-left: 100px;
